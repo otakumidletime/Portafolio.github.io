@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inconsolata';
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 15px;
+    color: white;
+    background-color: #1e2326;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.trabajos{
+    background-color: #1e2326;
+    height: 50vh;
+    color: white;
+    text-align: center;
+}
+
+.trabajos h1{
+    font-size: 2em;
+}
+
+.trabajos h2{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.trabajos p{
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.trabajos .chambas{
+    display: flex;
+    justify-content: center;
+}
+
+.trabajos .chambas .tarea{
+    background-color: #333f3d;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+footer{
+    top: 0;
+    background: linear-gradient(to right,rgba(22, 35, 43), rgba(16, 33, 43));
+}
+
+footer .banner .nava{
+    color: white;
+}
+
+footer p{
+    margin-top: 5px;
+    font-size: 1em;
+    color: white;
+}
+
+footer .banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 10px;
+}
